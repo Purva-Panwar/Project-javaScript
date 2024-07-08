@@ -1,0 +1,82 @@
+*{
+    margin: 0;padding: 0;
+    font-family: 'Poppins',serif;
+    box-sizing: border-box;
+}
+body{
+    background-color: rgb(10, 30, 30);
+    }
+ .app{
+        background-color: rgb(219, 203, 203);
+        margin: 100px auto 0;
+        width: 90%;
+        max-width: 500px;
+        border-radius: 10px;
+        padding: 30px; 
+        box-shadow: 5px  5px  9px 4px rgb(164, 140, 145);
+        
+ }
+.app h1{
+    font-size: 35px;
+    color: rgb(77, 8, 8);
+    display: flex;
+    justify-content: center;
+    font-weight: 600;
+    padding-bottom: 6px;
+    border-bottom:2px solid rgb(122, 18, 18);
+}
+.Quiz{
+    
+    padding: 20px 0;
+
+}
+.Quiz h2{
+    font-size: 25px;
+    color: black;
+    font-weight:700;
+    }
+.btn{
+        background-color: rgb(215, 199, 201);
+        font-size: 15px;
+        font-weight: 1000;
+        width: 100%;
+        border: 2px solid rgb(10, 6, 7);
+        padding: 10px;
+        margin: 12px 0;
+        text-align: left;
+        border-radius: 4px ;
+        cursor: pointer;
+        transition: all 0.3s;
+        box-shadow: 2px 3px 0px;
+ }
+.btn:hover:not([disabled]){
+        background-color: rgb(10, 7, 7);
+        color: white;
+}
+.btn:disabled{
+    cursor:no-drop;
+}
+
+    #next-btn{
+        background-color: black;
+        color: white;
+        font-weight: 500;
+        width: 100px;
+        height: 30px;
+        padding: 5px;
+        margin: 10px;
+        justify-content: center;
+        border-radius: 4px;
+        cursor: pointer;
+        font-size: 15px;
+        display: block;
+
+    }
+.correct{
+    background-color: rgb(53, 206, 42);
+
+}
+.incorrect{
+    background-color: rgb(219, 10, 10);
+}
+    
