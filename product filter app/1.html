@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Product filter app</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500&display=swap">
+</head>
+<body>
+    <div class="container">
+        <div id="search-container">
+            <input type="search" id="search-input" placeholder="Search product name..">
+            <button id="search">Search</button>
+
+        </div>
+        <div id="buttons">
+            <button class="buttonvalue" onclick="filterProduct('all')">All</button>
+            <button class="buttonvalue" onclick="filterProduct('topwear')">Topwear</button>
+            <button class="buttonvalue" onclick="filterProduct('bottomwear')">Bottomwear</button>
+            <button class="buttonvalue" onclick="filterProduct('jacket')">jacket</button>
+            <button class="buttonvalue" onclick="filterProduct('watch')">Watch</button>
+        </div>
+        <div id="products"></div>
+
+    </div>
+    <script src="1.js">
+
+    </script>
+</body>
+</html>
