@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>News App</title>
+    <link rel="stylesheet" href="1.css" />
+  </head>
+  <body>
+    <div class="div">
+      <nav>
+        <div class="main-container">
+          <a href="#" onClick="reload()">
+            <img src="logo.png" class="logo" alt="" />
+          </a>
+          <div class="nav-link">
+            <ul class="links">
+              <li
+                class="hover-link nav-item"
+                id="IPL"
+                onClick="onNavItemClick('IPL')"
+              >
+                IPL
+              </li>
+              <li
+                class="hover-link nav-item"
+                id="Finance"
+                onClick="onNavItemClick('Finance')"
+              >
+                Finance
+              </li>
+              <li
+                class="hover-link nav-item"
+                id="Pilitics"
+                onClick="onNavItemClick('Pilitics')"
+              >
+                Politics
+              </li>
+              <li
+                class="hover-link nav-item"
+                id="Farming"
+                onClick="onNavItemClick('Farming')"
+              >
+                Farming
+              </li>
+            </ul>
+          </div>
+          <div class="search-bar">
+            <input
+              type="text"
+              class="search-input"
+              id="search-input"
+              placeholder="Enter your choice"
+            />
+            <button class="button" id="search-button">Search</button>
+          </div>
+        </div>
+      </nav>
+
+      <section>
+        <div class="card-container" id="card-container"></div>
+      </section>
+      <template id="news-card">
+        <div class="card">
+          <div class="card-header">
+            <img
+              src="https://via.placeholder.com/400x200"
+              alt="images"
+              id="news-img"
+            />
+          </div>
+          <div class="card-content">
+            <h3 class="title" id="news-title">This i the title</h3>
+            <h6 class="title2" id="news-source">End Gadget 56/56/5/6</h6>
+            <p class="news-desc" id="news-desc">
+              Lorem ipsum dolor incidlorem10 Lorem ipsum dolor sit amet
+              consectetur adipisicing elit. Iste, nam.anditiis!
+            </p>
+          </div>
+        </div>
+      </template>
+    </div>
+
+    <script src="1.js"></script>
+  </body>
+</html>
