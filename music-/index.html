@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href=" https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+    />
+  </head>
+  <body>
+    <div class="container">
+      <div class="music">
+        <div class="navbar">
+          <div class="circle">
+            <i class="fa-solid fa-angle-left"></i>
+          </div>
+          <div class="circle">
+            <i class="fa-solid fa-bars"></i>
+          </div>
+        </div>
+        <img src="img.jpg" class="song-img" alt="" />
+        <h1>Dil Diya Galla</h1>
+        <h4>Udit Narayan</h4>
+        <audio id="song">
+          <source src="sound.mp3" type="audio/mpeg" />
+        </audio>
+
+        <input type="range" id="progress" value="0" />
+        <div class="control">
+          <div class="first"><i class="fa-solid fa-backward"></i></div>
+          <div class="second" onclick="playPause()">
+            <i class="fa-solid fa-play" id="mid"></i>
+          </div>
+          <div class="first"><i class="fa-solid fa-forward"></i></div>
+        </div>
+      </div>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
