@@ -1,0 +1,54 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+ body{
+    width: 100%;
+    height: 100vh;
+    background-image: url(bg.jpeg);
+    background-size: cover;
+ }
+ .taskbar{
+    width: 100%;
+    position: absolute;
+    bottom: 0px;
+    display: flex;
+    z-index: 110;
+    justify-content: center;
+    background-color:#f3f3f3;
+ }
+ .right{
+    position: absolute;
+    right: 0;
+    margin: 5px;
+    size: 85%;
+ }
+ .startmenu{
+    position: absolute;
+    bottom: -655px;
+    
+    width: 100%;
+    text-align: center;
+    
+ }
+ .startmenu img{
+    border-radius: 8px;
+    height: 600px;
+ }
+ .icon{
+    color: white;
+    margin: 5px;
+    margin-left: 15px;
+ }
+.first{
+    margin-bottom: 20px;
+}
+.chrome img{
+    margin-left: -10px;
+   
+}
+.chrome{
+    margin-bottom: 20px;
+}
